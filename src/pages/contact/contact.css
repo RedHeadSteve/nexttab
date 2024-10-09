@@ -1,0 +1,14 @@
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 10vh;
+}
+
+.contact-info > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+

@@ -1,0 +1,116 @@
+/* Because the default box-sizing is stupid... */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+/* #root and #__next cover my usual frameworks - Optional if you arent using one! */
+html, body, #root, #__next {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  /* Optional but I like to apply a base font always */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #0A060B;
+  width: 100vw;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+/* Stop long words causing overflow */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Basis-css pagina's*/
+
+.banner-section {
+  width: 100%;
+  background: url("assets/banner.jpg") no-repeat center;
+  margin-bottom: 100px;
+}
+
+.banner-content {
+  width: 50%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  color: #FAF9F6;
+  backdrop-filter: grayscale(100%);
+}
+
+.banner-content > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FAF9F6;
+  width: 100%;
+  padding: 50px;
+  gap: 50px;
+}
+
+.content > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  gap: 2rem;
+}
+
+li, a, li:visited, a:visited {
+  text-decoration: none;
+  list-style: none;
+}
+
+/*accenten*/
+
+.pop {
+  color: hotpink;
+}
+
+.blue {
+  color: #527D86;
+}
+
+.orange {
+  color: #E29879;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italics {
+  font-style: italic;
+}

@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    background-color: #0A060B;
+    height: 80px;
+    padding: 10px 100px 10px 100px;
+    z-index: 2;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    color: #FAF9F6;
+    align-items: center;
+    gap: 100px;
+}
+
+.active-menu-link {
+    color: #E29879;
+    font-weight: bold;
+}
+
+.default-menu-link {
+    color: #FAF9F6;
+}

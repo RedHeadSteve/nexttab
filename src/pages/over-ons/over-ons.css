@@ -1,0 +1,12 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1600px;
+    align-items: flex-start;
+}
+
+.about-us-intro {
+    color: #FAF9F6;
+}

@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 350px;
+    color: #FAF9F6;
+    align-items: center;
+    margin: 50px 0 50px 0;
+}
+
+.person-img {
+    border-radius: 50%;
+    width: 75%;
+}
+
+.card > article > * {
+    margin: 1rem;
+    text-align: center;
+}
